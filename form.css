@@ -1,0 +1,109 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-color: #FFEBCF;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1{
+font-family: 'Anton', sans-serif;
+font-size: 45px;background-color: #E8D0BC;
+}
+
+h2{
+font-family: 'Anton', sans-serif;
+font-size: 45px;
+background-color: #FFE6DB;
+color:black;
+text-align: center;
+}
+
+.form{
+  font-family: 'Poppins',sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.img{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:400px;
+  width:400px;
+  object-fit: cover;
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  background-color: #FFEBCF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.ddiv{
+  display: flex;
+  justify-content: center;
+
+}
+
+.b{
+  font-family: 'Anton', sans-serif;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  height:50px;
+  flex-grow:1;
+  background-color: #694C35;
+  color:#E8D0BC;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-content {
+    flex-direction: column;
+  }
+  .form {
+    font-size: 10px;
+  }
+  h1{
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  .img{
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.bb{
+  font-family: 'Anton', sans-serif;
+  font-size: 33px;
+  display: flex;
+  align-items: center;
+  width:200px;
+  height:50px;
+  background-color: #694C35;
+  color:#E8D0BC;
+}
+
+.input{
+  background-color: #E8D0BC;
+  height:35px;
+  width:110px;
+  border-radius: 10%;
+}

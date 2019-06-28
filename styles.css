@@ -1,0 +1,121 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  display: flex;
+}
+
+h1{
+font-family: 'Anton', sans-serif;
+font-size: 45px;background-color: #E8D0BC;
+}
+
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+}
+
+.ddiv{
+  display: flex;
+  justify-content: center;
+}
+
+.b{
+  font-family: 'Anton', sans-serif;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  width:200px;
+  height:50px;
+  flex-grow:1;
+  background-color: #694C35;
+  color:#E8D0BC;
+}
+
+.ruff{
+  height: 300px;
+  width: 423.6px;
+  object-fit: cover;
+}
+.dog11{
+  height: 300px;
+  width: 423.6px;
+  object-fit: cover;
+}
+.dog2{
+  height: 300px;
+   width: 423.6px;
+   object-fit: cover;
+}
+.dogs1{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-between;
+}
+.buddy{
+  display: flex;
+  align-self: center;
+  justify-content: center;align: center;
+}
+.words{
+  height: 40px;
+  width: 423.6px;
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  background-color: #E8C3BC
+}
+.words1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.mission{
+  text-align: center;
+  color: #694C35;
+  font-size:20px;
+}
+.statement{
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  color: #694C35
+}
+
+
+
+.social {
+  background-color:#694C35;
+  color: #E8D0BC;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 60px;
+  font-size: 15px;
+  align-self: flex-end; align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+  background-color: #FFE6DB
+}
+.tdog{
+  font-family: 'Anton', sans-serif; font-size: 30px; text-align: center;}
+
+  #pad{
+    padding:0px 150px;
+  }
+#eyd{
+  padding: 0px 170px;
+  object-fit: contain;
+  flex-wrap: nowrap;
+}
+
+img:hover{
+  transform: scale(1.3);
+}

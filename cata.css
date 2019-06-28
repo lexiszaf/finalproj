@@ -1,0 +1,88 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1{
+font-family: 'Anton', sans-serif;
+font-size: 45px;background-color: #E8D0BC;
+}
+
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+.ddiv{
+  display: flex;
+  justify-content: center;
+}
+
+.b{
+  font-family: 'Anton', sans-serif;
+  font-size: 33px;
+  display: flex;
+  justify-content: center;
+  width:200px;
+  height:50px;
+  flex-grow:1;
+  background-color: #694C35;
+  color:#E8D0BC;
+}
+.cat{
+  font-family: 'Anton', sans-serif; font-size: 35px; text-align: center; background-color: #FFE6D8
+}
+.ruff{
+height: 300px; width: 423.6px; object-fit: cover;
+}
+.dog11{
+height: 300px; width: 423.6px; object-fit: cover;
+}
+.dog2{
+  height: 300px; width: 423.6px; object-fit: cover;
+}
+.dogs1{
+  display: flex; flex-wrap: wrap; justify-content: space-between;
+}
+.buddy{
+  display: flex; align-self: center; justify-content: center;align: center;
+}
+.words{
+  height: 40px; width: 423.6px; font-size: 25px;   font-family: 'Poppins', sans-serif;; background-color: white
+}
+.words1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+img{
+  height: 350px;
+  width: 350px; object-fit: cover; display: flexbox; justify-content: space-around;flex-wrap: wrap; align-items: center;
+}
+.dogpics{
+  display: flex; justify-content: space-between; flex-wrap: wrap; justify-content: flex-start;
+}
+.everything{
+  text-align: center; justify-content: space-between;
+}
+@media screen and(max-width 850px){
+  .everything{
+    display: flex; flex-direction: column;
+  }
+}
+.overlay{
+  opacity: 0
+}
+
+img:hover{
+
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+}
